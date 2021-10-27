@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Shlop';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shlop'), local('Shlop'),
+       url('../fonts/shlop.woff') format('woff')
+}

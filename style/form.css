@@ -1,0 +1,79 @@
+/* Login or Register form */
+form{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 0.9em;
+  color: black;
+  background-color: #b7e493;
+  padding: 5%;
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.form-item{
+  display: block;
+  width: 100%;
+  padding: 1%;
+}
+
+.form-item p{
+  display: inline-block;
+  width: 30%;
+  padding: 1%;
+  text-align: right;
+  margin: 0;
+}
+
+.form-item input{
+  display: inline-block;
+  font-family: 'Shlop', Courier, monospace;
+  width: 58%;
+  padding: 1%;
+}
+
+form button{
+  display: block;
+  background-color: #1d260d;
+  color: #db7458;
+  border: none;
+  font-family: 'Shlop', Courier, monospace;
+  font-size: 1.5em;
+  padding: 15px;
+  margin: 20px auto;
+  cursor: pointer;
+  border: 1px solid #1d260a;
+}
+
+form button:hover{
+  background-color: #b7e493;
+  color: black;
+}
+
+form a{
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+form h2{
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form a:hover{
+  color: black;
+}
+
+#error{
+  display: none;
+  border: 3px solid red;
+  color: #e50406;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffd129;
+  margin: 0;
+  margin-bottom: 20px;
+}

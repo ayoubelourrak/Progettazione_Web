@@ -1,0 +1,18 @@
+article{
+  font-size: 0.9em;
+  color: black;
+  background-color: #b7e493;
+  padding: 7%;
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+article h1,h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+article p{
+  text-align: center;
+  line-height: 1.5em;
+}
+

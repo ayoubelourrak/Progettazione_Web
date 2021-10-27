@@ -1,0 +1,116 @@
+.type-selector{
+  text-align: center;
+  width: 100%;
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.type-selector li {
+  display: inline-block;
+  margin: 10px 0;
+  width: 22.5%;
+  vertical-align: middle;
+}
+
+.type-selector li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.7em;
+  padding: 16px;
+  color: #db7458;
+  line-height: 1.4em;
+  border: 1px solid #db7458;
+}
+
+.type-selector li a:hover{
+  background-color: #db7458;
+  color: #120A1A;
+}
+
+.table-title{
+  color: #db7458;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+table{
+  width: 100%;
+  font-size: 0.9em;
+  color: black;
+  background-color: #b7e493;
+  padding: 5%;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+td, th{
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+thead{
+  font-weight: bold;
+}
+
+.col1_3{
+  width: 20%;
+}
+
+.col2_3, .col3_3{
+  width: 40%;
+}
+
+.col1_2, .col2_2{
+  width: 50%;
+}
+
+.divider{
+  height: 1.4em;
+}
+.divider td{
+  border: none;
+}
+
+.arrows{
+  display: block;
+  width: 90%;
+  padding: 20px 5% 0 5%;
+}
+
+.arrows a{
+  text-align: center;
+  width: 25%;
+  text-decoration: none;
+  font-size: 0.8em;
+  border: 1px solid #db7458;
+  margin: -1px;
+  padding: 16px 0;
+  color: #db7458;
+}
+
+.arrows .empty{
+  display: inline-block;
+  height: 0.8em;
+  margin: 16px 0;
+  width: 25%;
+  float: left;
+}
+
+.arrows p{
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  margin: 16px 0;
+  color: #db7458;
+}
+
+.arrows a:hover{
+  color: #1d260d;
+  background-color: #db7458;
+}
